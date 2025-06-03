@@ -1,5 +1,5 @@
 name: cus_theme
-description: "A new Flutter package project."
+description: "A customizable Flutter theme package with light/dark modes, color presets, typography, spacing, and dynamic theme switching."
 version: 0.0.1
 homepage:
 
