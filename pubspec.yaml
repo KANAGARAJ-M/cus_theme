@@ -1,7 +1,17 @@
 name: cus_theme
 description: "A customizable Flutter theme package with light/dark modes, color presets, typography, spacing, and dynamic theme switching."
 version: 0.0.1
-homepage:
+homepage: https://nocorps.org/
+repository: https://github.com/KANAGARAJ-M/cus_theme
+issue_tracker: https://github.com/KANAGARAJ-M/cus_theme/issues
+
+# The following line is a description of the package.
+# It is used in pub.dev and should be a single line.  
+# It should not contain any newlines or other formatting.
+# For more information, see https://dart.dev/tools/pub/cmd/pub-lish
+# publish_to: 'https://pub.dev'
+# If you don't want your package to be published, set this to false.
+
 
 environment:
   sdk: ^3.8.0
