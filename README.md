@@ -336,7 +336,7 @@ class MyCustomExtension extends ThemeExtension<MyCustomExtension> {
 
 If you find this package helpful, consider supporting its development:
 
-[![Donate via Razorpay](https://img.shields.io/badge/Donate-Razorpay-blue.svg)](https://rzp.io/l/your-razorpay-link)
+[![Donate via Razorpay](https://img.shields.io/badge/Donate-Razorpay-blue.svg)](https://rzp.io/l/pl_Pz2rI1rs7TmNWv)
 
 Your support helps keep this project active and maintained. Thank you!
 
