@@ -1,16 +1,3 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
 # Custom Theme Package
 
 A Flutter package that provides a customizable theme system for your applications.  
@@ -34,13 +21,27 @@ Easily implement and switch between light and dark themes, customize colors, typ
 
 ## Getting started
 
-Add the package to your `pubspec.yaml`:
+## Installation
+
+Run this command in your project directory:
+
+```sh
+flutter pub add cus_theme
+```
+
+Or manually add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  cus_theme: ^0.0.1
+  cus_theme: ^1.8.1
   provider: ^6.1.5
   shared_preferences: ^2.5.3
+```
+
+Then run:
+
+```sh
+flutter pub get
 ```
 
 ---
@@ -114,7 +115,7 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -333,8 +334,8 @@ class MyCustomExtension extends ThemeExtension<MyCustomExtension> {
 
 ## Additional information
 
-- For a complete example, see the [example](https://github.com/yourusername/cus_theme/tree/main/example) directory.
-- This package is licensed under the MIT License.
+- For a complete example, see the [example](https://github.com/KANAGARAJ-M/cus_theme/tree/main/example) directory.
+- This package is licensed under the Apache-2.0 License.
 - Contributions are welcome! Please submit a Pull Request or open an issue.
 
 ---

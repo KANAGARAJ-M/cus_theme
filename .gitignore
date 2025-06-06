@@ -16,16 +16,70 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
+# VS Code settings (uncomment if you don't want to track .vscode)
 #.vscode/
 
 # Flutter/Dart/Pub related
-# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
 /pubspec.lock
 **/doc/api/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.packages
 build/
+# Native build artifacts
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/build/
+windows/build/
+linux/build/
+web/.dart_tool/
+web/build/
+# Coverage
+coverage/
+# Test outputs
+test/**/outputs/
+# Others
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swo
+*.swp
+*.zip
+*.tar.gz
+*.log
+*.lock
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+*.pyc
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

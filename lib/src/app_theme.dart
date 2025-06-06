@@ -70,7 +70,7 @@ class AppTheme {
       colorScheme: colorScheme,
       textTheme: scaledTextTheme,
       primaryColor: colorScheme.primary,
-      scaffoldBackgroundColor: colorScheme.background,
+      scaffoldBackgroundColor: colorScheme.surface,
       
       // AppBar theme
       appBarTheme: AppBarTheme(
@@ -167,7 +167,7 @@ class AppTheme {
       
       // Checkbox theme
       checkboxTheme: CheckboxThemeData(
-        fillColor: MaterialStateProperty.resolveWith<Color?>((Set<MaterialState> states) {
+        fillColor: WidgetStateProperty.resolveWith<Color?>((Set<WidgetState> states) {
           if (states.contains(MaterialState.disabled)) {
             return null;
           }
@@ -357,7 +357,7 @@ class AppTheme {
       colorScheme: colorScheme,
       textTheme: scaledTextTheme,
       primaryColor: colorScheme.primary,
-      scaffoldBackgroundColor: colorScheme.background,
+      scaffoldBackgroundColor: colorScheme.surface,
       
       // AppBar theme
       appBarTheme: AppBarTheme(
@@ -454,7 +454,7 @@ class AppTheme {
       
       // Checkbox theme
       checkboxTheme: CheckboxThemeData(
-        fillColor: MaterialStateProperty.resolveWith<Color?>((Set<MaterialState> states) {
+        fillColor: WidgetStateProperty.resolveWith<Color?>((Set<WidgetState> states) {
           if (states.contains(MaterialState.disabled)) {
             return null;
           }

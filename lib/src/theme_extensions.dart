@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'theme_constants.dart';
 
 /// Custom theme extension for app-specific values not covered by standard ThemeData
 @immutable

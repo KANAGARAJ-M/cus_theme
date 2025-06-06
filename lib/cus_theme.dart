@@ -1,11 +1,5 @@
-/// Custom Theme Package
-///
-/// A Flutter package that provides a customizable theme system for your applications.
-/// Features include pre-configured light and dark themes, custom color schemes,
-/// consistent text styles, and easy theme switching capabilities.
 library cus_theme;
 
-// Core theme components
 export 'src/app_theme.dart';
 export 'src/theme_colors.dart';
 export 'src/theme_text.dart';
@@ -18,8 +12,6 @@ import 'src/app_theme.dart';
 import 'src/theme_provider.dart';
 import 'src/theme_extensions.dart';
 import 'package:provider/provider.dart';
-
-/// Convenience methods for working with cus_theme package
 
 /// Returns the active [AppTheme] from the provided BuildContext
 AppTheme getAppTheme(BuildContext context) {

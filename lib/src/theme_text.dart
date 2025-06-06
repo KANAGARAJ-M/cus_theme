@@ -212,7 +212,7 @@ class ThemeText {
   }
   
   /// High-emphasis text for light theme (black with 87% opacity)
-  static Color get lightThemeHighEmphasisColor => Colors.black.withOpacity(0.87);
+  static Color get lightThemeHighEmphasisColor => Colors.black.withAlpha(222); // 0.87 * 255 = 222
   
   /// Medium-emphasis text for light theme (black with 60% opacity)
   static Color get lightThemeMediumEmphasisColor => Colors.black.withOpacity(0.60);
