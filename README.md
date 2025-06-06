@@ -332,7 +332,7 @@ class MyCustomExtension extends ThemeExtension<MyCustomExtension> {
 
 ---
 
-## Support & Donation
+<!-- ## Support & Donation
 
 If you find this package helpful, consider supporting its development:
 
@@ -340,7 +340,7 @@ If you find this package helpful, consider supporting its development:
 
 Your support helps keep this project active and maintained. Thank you!
 
----
+--- -->
 
 ## Additional information
 
