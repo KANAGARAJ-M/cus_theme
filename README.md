@@ -332,6 +332,16 @@ class MyCustomExtension extends ThemeExtension<MyCustomExtension> {
 
 ---
 
+## Support & Donation
+
+If you find this package helpful, consider supporting its development:
+
+[![Donate via Razorpay](https://img.shields.io/badge/Donate-Razorpay-blue.svg)](https://rzp.io/l/your-razorpay-link)
+
+Your support helps keep this project active and maintained. Thank you!
+
+---
+
 ## Additional information
 
 - For a complete example, see the [example](https://github.com/KANAGARAJ-M/cus_theme/tree/main/example) directory.
